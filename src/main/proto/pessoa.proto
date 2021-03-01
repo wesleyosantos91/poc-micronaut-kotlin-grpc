@@ -1,0 +1,46 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+import "google/protobuf/timestamp.proto";
+package io.github.wesleyosantos91.proto;
+
+service PessoaService {
+  rpc GetAll (Empty) returns (PessoaListReply) {}
+  rpc GetById (PessoaRequestId) returns (PessoaReply) {}
+  rpc Insert (CreatePessoa) returns (PessoaReply) {}
+  rpc Update (UpdatePessoa) returns (PessoaReply) {}
+  rpc Remove (PessoaRequestId) returns (Empty) {}
+}
+
+message Empty {}
+
+message CreatePessoa {
+  string nome = 1;
+  string cpf = 2;
+  google.protobuf.Timestamp dataNascimento = 3;
+  string email = 4;
+}
+
+message UpdatePessoa {
+  int64 codigo =1;
+  string nome = 2;
+  string cpf = 3;
+  google.protobuf.Timestamp dataNascimento = 4;
+  string email = 5;
+}
+
+message PessoaReply {
+  int64 codigo = 1;
+  string nome = 2;
+  string cpf = 3;
+  google.protobuf.Timestamp dataNascimento = 4;
+  string email = 5;
+}
+
+message PessoaListReply {
+  repeated PessoaReply pessoas = 1;
+}
+
+message PessoaRequestId {
+  int64 codigo = 1;
+}

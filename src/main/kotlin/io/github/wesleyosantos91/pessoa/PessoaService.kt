@@ -1,6 +1,6 @@
 package io.github.wesleyosantos91.pessoa
 
-import io.github.wesleyosantos91.exception.ObjectNotFoundException
+import io.github.wesleyosantos91.exception.core.ObjectNotFoundException
 import io.github.wesleyosantos91.proto.CreatePessoa
 import io.github.wesleyosantos91.proto.PessoaListReply
 import io.github.wesleyosantos91.proto.PessoaReply

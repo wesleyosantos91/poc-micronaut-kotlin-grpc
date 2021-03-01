@@ -1,4 +1,4 @@
-package io.github.wesleyosantos91.exception
+package io.github.wesleyosantos91.exception.core
 
 import java.lang.Exception
 

@@ -6,7 +6,6 @@
 <div align="center">
 
   # POC - Microunaut, Kotlin e GRPC.
-  Trata-se de uma aplicação que permite cadastrar usuários, perfis e funcionalidades para delimitar acessos para uma outra aplicação
   Trata-se de uma aplicação de prova de conceito para aplicar CRUD utilizando arquitetura: Microunaut, Kotlin e GRPC
 
   ![](https://img.shields.io/badge/Autor-Wesley%20Oliveira%20Santos-brightgreen)

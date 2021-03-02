@@ -17,9 +17,9 @@
 
 ## Fundamentos teóricos
 
-> Micronaut: O Microunaut é um framework baseado na JVM para criação de micros-serviços inspirado pelo Spring e Grails e permite a criação de aplicações utilizando Java, Kotlin ou Groovy.
+> Micronaut: Microunaut é um framework baseado na JVM para criação de micros-serviços inspirado pelo Spring e Grails e permite a criação de aplicações utilizando Java, Kotlin ou Groovy.
 
-> gPC: gRPC é uma tecnologia open source e de alta performance empregada em chamadas remotas (daí o RPC em seu nome, sigla de Remote Procedure Call). Desenvolvido originalmente pela Google, emprega o formato binário Protobuf para a serialização de dados e HTTP/2 como protocolo de comunicação..
+> gRPC: gRPC é uma tecnologia open source e de alta performance empregada em chamadas remotas (daí o RPC em seu nome, sigla de Remote Procedure Call). Desenvolvido originalmente pela Google, emprega o formato binário Protobuf para a serialização de dados e HTTP/2 como protocolo de comunicação..
 
 > Protocol Buffer: Protocol buffer ou protobuf é um método criado pelo Google de serialização de dados estruturados, agnóstico de linguagem. A transferência de dados chega a ser até 6x mais rápida que um JSON. O gRPC utiliza o arquivo com extensão .proto para criar o código base, garantindo o Contract-first.
 

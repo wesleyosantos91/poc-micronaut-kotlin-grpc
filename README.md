@@ -35,7 +35,6 @@
     - micronaut-test-kotest
 - testcontainers
 - Flywaydb
-- Lombok
 - Mysql
 - GIT
 

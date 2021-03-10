@@ -1,6 +1,6 @@
 applicationType: grpc
 defaultPackage: io.github.wesleyosantos91
-testFramework: kotest
+testFramework: junit
 sourceLanguage: kotlin
 buildTool: gradle
-features: [annotation-api, app-name, data, data-jpa, flyway, gradle, grpc, jdbc-hikari, kotest, kotlin, kotlin-application, logback, mysql, readme, shade, testcontainers, yaml]
+features: [annotation-api, app-name, data, data-jpa, flyway, gradle, grpc, jdbc-hikari, junit, kotlin, kotlin-application, logback, mysql, readme, shade, testcontainers, yaml]

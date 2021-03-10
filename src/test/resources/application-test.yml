@@ -1,4 +1,4 @@
-flyway:
-  datasources:
-    default:
-      enabled: true
+datasources:
+  default:
+    url: jdbc:tc:mysql:8:///db
+    driverClassName: org.testcontainers.jdbc.ContainerDatabaseDriver

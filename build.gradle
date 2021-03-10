@@ -16,7 +16,7 @@ repositories {
 }
 
 micronaut {
-    testRuntime("kotest")
+    testRuntime("junit5")
     processing {
         incremental(true)
         annotations("io.github.wesleyosantos91.*")
@@ -40,6 +40,7 @@ dependencies {
     runtimeOnly("mysql:mysql-connector-java")
     testImplementation("io.micronaut:micronaut-http-client")
     testImplementation("org.testcontainers:testcontainers")
+    testImplementation("org.testcontainers:junit-jupiter")
     testImplementation("org.testcontainers:mysql")
 }
 

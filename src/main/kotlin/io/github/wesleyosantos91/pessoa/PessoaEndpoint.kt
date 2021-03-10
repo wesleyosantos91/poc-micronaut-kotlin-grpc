@@ -10,7 +10,6 @@ import javax.inject.Singleton
 class PessoaEndpoint(private val service: PessoaService) : PessoaServiceGrpc.PessoaServiceImplBase() {
 
     override fun getAll(request: Empty?, responseObserver: StreamObserver<PessoaListReply>?) {
-
         responseObserver?.onNext(service.getAll())
         responseObserver?.onCompleted();
     }

@@ -32,7 +32,6 @@
     - micronaut-jdbc-hikari
     - micronaut-data-jdbc
     - micronaut-data-processor
-    - micronaut-test-kotest
 - testcontainers
 - Flywaydb
 - Mysql

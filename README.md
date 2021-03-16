@@ -23,6 +23,8 @@
 
 > Protocol Buffer: Protocol buffer ou protobuf é um método criado pelo Google de serialização de dados estruturados, agnóstico de linguagem. A transferência de dados chega a ser até 6x mais rápida que um JSON. O gRPC utiliza o arquivo com extensão .proto para criar o código base, garantindo o Contract-first.
 
+> Kotlin: Kotlin é uma Linguagem de programação multiplataforma, orientada a objetos e funcional, concisa e estaticamente tipada, desenvolvida pela JetBrains em 2011, que compila para a Máquina virtual Java e que também pode ser traduzida para a linguagem JavaScript e compilada para código nativo.
+
 ## Tecnologias
 - Kotlin 1.4.30
 - Micronaut 2.3.3
